@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="PROJEKT.ControlMoveAdapter">
+    <Position X="0.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAACAAAAAAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ControlMoveAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.262" />
+  </Class>
+  <Class Name="PROJEKT.Engine">
+    <Position X="3.5" Y="0.75" Width="2.25" />
+    <AssociationLine Name="movables" Type="PROJEKT.IMovable">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-2.003" Y="0.556" Height="0.182" Width="1.848" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgAAAgAAAAAAAAKAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="movables" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PROJEKT.SimpleMoveControl">
+    <Position X="0.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CEIgAAAAAAAAACAAAAAAACABAAFAAIAQQAABQAAAAAA=</HashCode>
+      <FileName>SimpleMoveControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PROJEKT.Form1">
+    <Position X="6.75" Y="2.75" Width="2.25" />
+    <Members>
+      <Field Name="backgroundWorker1" Hidden="true" />
+      <Field Name="bunifuColorTransition1" Hidden="true" />
+      <Field Name="bunifuTransition1" Hidden="true" />
+      <Field Name="bunifuTransition2" Hidden="true" />
+      <Field Name="bunifuTransition3" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Method Name="button1_Click" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Method Name="button2_Click" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Method Name="button3_Click" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Method Name="button4_Click" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Method Name="button5_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="fontDialog1" Hidden="true" />
+      <Method Name="label1_Click" Hidden="true" />
+      <Field Name="labelPoints" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Method Name="panel1_Paint" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Method Name="panel2_Paint" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Method Name="panel3_Paint" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Method Name="pictureBox1_Click" Hidden="true" />
+      <Method Name="PrepareObjects" Hidden="true" />
+      <Method Name="SetMyButtonProperties" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Method Name="textBox1_TextChanged" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+      <Method Name="timer1_Tick" Hidden="true" />
+      <Field Name="timer2" Hidden="true" />
+      <Method Name="timer2_Tick" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABTAIASAECCAgAAAAACBAAASAMA4IAQEMHQMAYRAQAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="engine" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="PROJEKT.IMovable">
+    <Position X="3.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
